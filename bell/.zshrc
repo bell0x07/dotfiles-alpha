@@ -25,5 +25,6 @@ alias t=todo.sh
 alias c=clear
 alias zshrc="nano ~/.zshrc && source ~/.zshrc"
 alias y=yaourt
+alias p=pass
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
