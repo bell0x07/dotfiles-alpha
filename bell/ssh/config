@@ -46,4 +46,15 @@ Host midgard
   HostName midgard.0x07.pl
   User bell
   Port 22
-
+Host enter.pixers.pl
+  Port 60022
+  User bell
+  HostName enter.pixers.pl
+Host enter.pixers.org
+  Port 60022
+  User bell
+  HostName enter.pixers.org
+Hostt cr-nas
+  Port 60022
+  User root
+  HostName 192.168.8.105
