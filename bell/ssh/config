@@ -58,3 +58,7 @@ Host cr-nas
   Port 60022
   User root
   HostName 192.168.8.105
+Host pixers
+  Port 60022
+  User bell
+  HostName *.pixers.pl 
