@@ -1,8 +1,4 @@
 ## bell's private ##
-Host 0x07
-  HostName 0x07.pl
-  User bell
-
 Host jotunheim
   AddKeysToAgent yes
   ForwardAgent yes
