@@ -1,63 +1,61 @@
-Host CCChill
-  HostName 192.168.8.189
-  User pi
-Host CCB2B
-  HostName 192.168.8.12
-  User pi
-Host pixers-gitlab
-  HostName git.pixers.pl
-  User kkowalik
+## bell's private ##
 Host 0x07
   HostName 0x07.pl
   User bell
-Host enter
-  HostName enter.pixers.pl
-  User bell
-  Port 60022
-Host git.pixers.pl
-  HostName git.pixers.pl
-  User kkowalik
-  Port 22
-Host sultan
-  AddKeysToAgent yes
-  ForwardAgent yes
-  HostName test.pixers.org
-  User kkowalik
-  Port 60022
-Host dock1
-  AddKeysToAgent yes
-  ForwardAgent yes
-  HostName dock1.pixers.pl
-  User bell
-  Port 60022
-Host nidavellir
-  HostName 192.168.2.160
-  User bell
-  Port 60022
+
 Host jotunheim
   AddKeysToAgent yes
   ForwardAgent yes
   HostName jotunheim.0x07.pl
   User bell
   Port 22
+
 Host midgard
   AddKeysToAgent yes
   ForwardAgent yes
   HostName midgard.0x07.pl
   User bell
   Port 22
-Host enter.pixers.pl
-  Port 60022
-  User bell
+
+## pixers ##
+Host enter
   HostName enter.pixers.pl
-Host enter.pixers.org
-  Port 60022
   User bell
-  HostName enter.pixers.org
-Host cr-nas
   Port 60022
-  User root
-  HostName 192.168.8.105
+
+Host sultan
+  AddKeysToAgent yes
+  ForwardAgent yes
+  HostName test.pixers.org
+  User kkowalik
+  Port 60022
+
+Host dock1
+  AddKeysToAgent yes
+  ForwardAgent yes
+  HostName dock1.pixers.pl
+  User bell
+  Port 60022
+
+Host nidavellir
+  HostName 192.168.2.160
+  User bell
+  Port 60022
+
+Host jotunheim
+  AddKeysToAgent yes
+  ForwardAgent yes
+  HostName jotunheim.0x07.pl
+  User bell
+  Port 22
+
+Host midgard
+  AddKeysToAgent yes
+  ForwardAgent yes
+  HostName midgard.0x07.pl
+  User bell
+  Port 22
+
 Host db1.pixers.pl
   Port 60022
   User jkowalik
@@ -66,4 +64,34 @@ Host db2.pixers.pl
   Port 60022
   User jkowalik
   HostName db2.pixers.pl
+
+Host pepe
+  Port 60022
+  user bell
+  HostName pepe.pixers.org
+
+## Local in the office ##
+Host cr-nas
+  Port 60022
+  User root
+  HostName 192.168.8.105
+
+Host finn
+  Port 60022
+  user bell
+  HostName 192.168.8.7
+
+Host CCChill
+  HostName 192.168.8.189
+  User pi
+
+Host CCB2B
+  HostName 192.168.8.12
+  User pi
+
+## other ##
+Host meta
+  Port 22
+  user meta
+  HostName meta.nazwa.pl
 
