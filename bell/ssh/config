@@ -19,6 +19,11 @@ Host enter
   User bell
   Port 60022
 
+Host enter.pixers.pl
+  HostName enter.pixers.pl
+  User bell
+  Port 60022
+
 Host sultan
   AddKeysToAgent yes
   ForwardAgent yes
