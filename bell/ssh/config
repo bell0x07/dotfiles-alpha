@@ -13,6 +13,25 @@ Host midgard
   User bell
   Port 22
 
+Host nidavellir
+  HostName 192.168.2.160
+  User bell
+  Port 60022
+
+Host jotunheim
+  AddKeysToAgent yes
+  ForwardAgent yes
+  HostName jotunheim.0x07.pl
+  User bell
+  Port 22
+
+Host midgard
+  AddKeysToAgent yes
+  ForwardAgent yes
+  HostName midgard.0x07.pl
+  User bell
+  Port 22
+
 ## pixers ##
 Host enter
   HostName enter.pixers.pl
@@ -38,29 +57,17 @@ Host dock1
   User bell
   Port 60022
 
-Host nidavellir
-  HostName 192.168.2.160
-  User bell
+Host jenkins
+  AddKeysToAgent yes
+  ForwardAgent yes
+  HostName jenkins.pixers.org
+  user bell
   Port 60022
-
-Host jotunheim
-  AddKeysToAgent yes
-  ForwardAgent yes
-  HostName jotunheim.0x07.pl
-  User bell
-  Port 22
-
-Host midgard
-  AddKeysToAgent yes
-  ForwardAgent yes
-  HostName midgard.0x07.pl
-  User bell
-  Port 22
 
 Host db1.pixers.pl
   Port 60022
   User jkowalik
-  HostName db1.pixers.pl 
+  HostName db1.pixers.pl
 Host db2.pixers.pl
   Port 60022
   User jkowalik
@@ -95,4 +102,3 @@ Host meta
   Port 22
   user meta
   HostName meta.nazwa.pl
-

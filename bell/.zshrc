@@ -16,7 +16,7 @@ bindkey -v
 
 EDITOR=nano
 
-PATH="$PATH:/home/bell/.gem/ruby/2.3.0/bin"
+PATH="$PATH:/home/bell/.gem/ruby/2.4.0/bin"
 
 eval $(ssh-agent) 
 
