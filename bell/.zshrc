@@ -17,7 +17,7 @@ bindkey -v
 EDITOR=nano
 
 PATH="$PATH:/home/bell/.gem/ruby/2.4.0/bin"
-
+LD_LIBRARY_PATH=/usr/local/lib:/usr/lib
 eval $(ssh-agent) 
 
 #alias steam=STEAM_RUNTIME=0 steam
@@ -26,5 +26,6 @@ alias c=clear
 alias zshrc="nano ~/.zshrc && source ~/.zshrc"
 alias y=yaourt
 alias p=pass
+alias tb="nc termbin.com 9999"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

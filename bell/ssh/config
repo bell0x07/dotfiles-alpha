@@ -78,6 +78,12 @@ Host pepe
   user bell
   HostName pepe.pixers.org
 
+Host passbolt
+  Port 22
+  user bell
+  HostName 172.18.0.33
+
+
 ## Local in the office ##
 Host cr-nas
   Port 60022
@@ -96,6 +102,7 @@ Host CCChill
 Host CCB2B
   HostName 192.168.8.12
   User pi
+
 
 ## other ##
 Host meta
