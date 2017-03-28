@@ -14,7 +14,7 @@ Host midgard
   Port 22
 
 Host nidavellir
-  HostName 192.168.2.160
+  HostName 192.168.8.112
   User bell
   Port 60022
 
@@ -64,6 +64,20 @@ Host jenkins
   user bell
   Port 60022
 
+Host gunter
+  AddKeysToAgent yes
+  ForwardAgent yes
+  HostName gunter.pixers.org
+  user bell
+  Port 60022
+
+Host backup
+  AddKeysToAgent yes
+  ForwardAgent yes
+  HostName backup.pixers.pl
+  user bell
+  Port 60022
+
 Host db1.pixers.pl
   Port 60022
   User jkowalik
@@ -83,6 +97,10 @@ Host passbolt
   user bell
   HostName 172.18.0.33
 
+Host blog.pixers
+  Port 60022
+  user bell
+  HostName blog.xiinvestment.com
 
 ## Local in the office ##
 Host cr-nas
