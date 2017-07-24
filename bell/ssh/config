@@ -11,7 +11,7 @@ Host midgard
   ForwardAgent yes
   HostName midgard.0x07.pl
   User bell
-  Port 22
+  Port 60022
 
 Host nidavellir
   HostName 192.168.8.112
@@ -33,6 +33,21 @@ Host midgard
   Port 22
 
 ## pixers ##
+Host *.pixers.org
+  Port 60022
+  StrictHostKeyChecking no
+#  UserKnownHostsFile=/dev/null
+
+Host *.pixers
+  Port 60022
+  StrictHostKeyChecking no
+#  UserKnownHostsFile=/dev/null
+
+Host *.pixers.pl
+  Port 60022
+  StrictHostKeyChecking no
+#  UserKnownHostsFile=/dev/null
+
 Host enter
   HostName enter.pixers.pl
   User bell
