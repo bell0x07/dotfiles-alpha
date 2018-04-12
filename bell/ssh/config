@@ -1,10 +1,3 @@
-## bell's private ##
-Host jotunheim
-  AddKeysToAgent yes
-  ForwardAgent yes
-  HostName jotunheim.0x07.pl
-  User bell
-  Port 22
 
 Host midgard
   AddKeysToAgent yes
@@ -32,110 +25,215 @@ Host midgard
   User bell
   Port 22
 
-## pixers ##
-Host *.pixers.org
-  Port 60022
-  StrictHostKeyChecking no
-#  UserKnownHostsFile=/dev/null
+## fwc ##
+Host fastwhitecat.com
+    HostName fastwhitecat.com
+    User jakub.kowalik
 
-Host *.pixers
-  Port 60022
-  StrictHostKeyChecking no
-#  UserKnownHostsFile=/dev/null
+Host distripark
+    HostName 37.187.95.89
+    User jakub.kowalik
 
-Host *.pixers.pl
-  Port 60022
-  StrictHostKeyChecking no
-#  UserKnownHostsFile=/dev/null
+Host distripark_cn
+    HostName distripark.cn
+    User jakub.kowalik
 
-Host enter
-  HostName enter.pixers.pl
-  User bell
-  Port 60022
+Host pureleaf
+    HostName 37.187.94.68
+    User jakub.kowalik
 
-Host enter.pixers.pl
-  HostName enter.pixers.pl
-  User bell
-  Port 60022
+Host zabbix
+    User jakub.kowalik
+    HostName 188.165.207.13
 
-Host sultan
-  AddKeysToAgent yes
-  ForwardAgent yes
-  HostName test.pixers.org
-  User kkowalik
-  Port 60022
+Host rubin
+    User jakub.kowalik
+    HostName 5.148.181.120
 
-Host dock1
-  AddKeysToAgent yes
-  ForwardAgent yes
-  HostName dock1.pixers.pl
-  User bell
-  Port 60022
+Host mazda_prod
+    User jakub.kowalik
+    HostName 78.133.251.171
+
+Host kontigo
+    User jakub.kowalik
+    HostName 94.23.2.189
+
+Host marge
+    User jakub.kowalik
+    HostName 78.133.251.170
+
+Host homer
+    User jakub.kowalik
+    HostName 78.133.250.172
+
+Host Macrologic
+    User ubuntu
+    HostName 35.158.35.228
+
+Host Mule
+    User ubuntu
+    HostName 35.156.69.169
+
+Host gate
+    User ec2-user
+    HostName ec2-35-156-101-122.eu-central-1.compute.amazonaws.com
+    DynamicForward 8080
+
+Host belmeb
+    User jakub.kowalik
+    HostName 37.59.28.167
+
+Host lancerto
+    User jakub.kowalik
+    HostName 78.133.251.169
+
+Host duka
+    User jakub.kowalik
+    HostName 87.106.6.158
+
+Host qsq
+    User jakub.kowalik
+    HostName 94.42.167.100
+
+Host vds
+    User jakub.kowalik
+    HostName  37.187.76.186
+
+Host bialcon
+    User jakub.kowalik
+    HostName 78.133.250.174
+
+Host esb
+    User jakub.kowalik
+    HostName 78.133.251.172
+
+Host xpertis
+    User jakub.kowalik
+    HostName 78.133.251.173
+
+Host euro-hair
+    User jakub.kowalik
+    HostName 78.133.251.12
+
+Host tchibocafissimo
+    User jakub.kowalik
+    HostName 37.187.74.155
+
+Host docker
+    User jakub.kowalik
+    HostName 91.121.209.108
+
+Host docker_old
+    User jakub.kowalik
+    HostName 188.165.210.13
+
+Host up2buy
+    User jakub.kowalik
+    HostName 178.216.203.131
+
+Host manage
+    User jakub.kowalik
+    HostName 188.165.221.214
+
+Host elk
+    User jakub.kowalik
+    HostName 78.133.251.167
 
 Host jenkins
-  AddKeysToAgent yes
-  ForwardAgent yes
-  HostName jenkins.pixers.org
-  user bell
-  Port 60022
+    User jakub.kowalik
+    HostName 78.133.251.165
 
-Host gunter
-  AddKeysToAgent yes
-  ForwardAgent yes
-  HostName gunter.pixers.org
-  user bell
-  Port 60022
+Host corin
+    User jakub.kowalik
+    HostName  37.59.48.195
 
-Host backup
-  AddKeysToAgent yes
-  ForwardAgent yes
-  HostName backup.pixers.pl
-  user bell
-  Port 60022
+Host AniaKruk
+    User jakub.kowalik
+    HostName 91.121.145.159
 
-Host db1.pixers.pl
-  Port 60022
-  User jkowalik
-  HostName db1.pixers.pl
-Host db2.pixers.pl
-  Port 60022
-  User jkowalik
-  HostName db2.pixers.pl
+Host distripark
+  #  User root
+    User jakub.kowalik
+    HostName 37.187.95.89
 
-Host pepe
-  Port 60022
-  user bell
-  HostName pepe.pixers.org
+Host fwc
+    User jakub.kowalik
+    HostName 94.23.51.185
 
-Host passbolt
-  Port 22
-  user bell
-  HostName 172.18.0.33
+Host htx
+    User jakub.kowalik
+    HostName helikon-tex.com
 
-Host blog.pixers
-  Port 60022
-  user bell
-  HostName blog.xiinvestment.com
+Host htx_us
+    User jakub.kowalik
+    HostName 52.91.60.40
+    # IdentityFile ~/.ssh/htx.us
 
-## Local in the office ##
-Host cr-nas
-  Port 60022
-  User root
-  HostName 192.168.8.105
+Host htx_b2b
+  #  User jakub.kowalik
+    User ubuntu
+  #  HostName 34.240.195.85
+    HostName 54.154.54.78
 
-Host finn
-  Port 60022
-  user bell
-  HostName 192.168.8.7
+Host htx_b2b_preprod
+  #  User jakub.kowalik
+    User ubuntu
+  #  HostName 34.240.195.85
+    HostName 52.212.105.50
 
-Host CCChill
-  HostName 192.168.8.189
-  User pi
+Host htx_b2b_bastion
+  #  User jakub.kowalik
+    User ubuntu
+    HostName 34.252.215.88
 
-Host CCB2B
-  HostName 192.168.8.12
-  User pi
+Host dag_eu
+    User jakub.kowalik
+    HostName eu.directactiongear.com
 
+Host dag_us
+    User ubuntu
+    HostName us.directactiongear.com
+
+Host vpn
+    User ubuntu
+    HostName 18.194.2.217
+
+Host kubenz
+    User jakub.kowalik
+    HostName 37.187.78.148
+
+Host pureleaf
+    User jakub.kowalik
+  #  User root
+    HostName 37.187.94.68
+
+Host new_deg-eu
+    User ubuntu
+    HostName 35.156.96.50
+
+Host stukpuk
+    User fwc
+    HostName 46.229.145.213
+    ControlMaster auto
+    ControlPersist 60s
+    ConnectTimeout 10
+    Ciphers aes256-cbc
+Host zoio
+    User jakub.kowalik
+    HostName ns3087298.ip-54-36-168.eu
+
+Host maggie
+    User jakub.kowalik
+    HostName 37.187.95.75
+
+ #AWS#
+Host gosport-preprod
+    HostName 34.250.118.117
+    User jakub.kowalik
+
+Host gosport-prod
+    HostName 34.242.138.187
+    User jakub.kowalik
 
 ## other ##
 Host meta
