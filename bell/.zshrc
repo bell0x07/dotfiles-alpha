@@ -28,4 +28,4 @@ alias y=yaourt
 alias p=pass
 alias tb="nc termbin.com 9999"
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
